@@ -1,0 +1,140 @@
+# Copyright (C) 2016 Teamstuff Calendar
+# This file is distributed under the same license as the Teamstuff Calendar package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Teamstuff Calendar 1.0.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/teamstuff-"
+"calendar\n"
+"POT-Creation-Date: 2016-10-26 04:33:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/class-teamstuff-calendar-admin.php:111
+msgid "Teamstuff Calender Settings"
+msgstr ""
+
+#. #-#-#-#-#  teamstuff-calendar.pot (Teamstuff Calendar 1.0.7)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/class-teamstuff-calendar-admin.php:112
+msgid "Teamstuff Calendar"
+msgstr ""
+
+#: admin/class-teamstuff-calendar-admin.php:138
+msgid "General"
+msgstr ""
+
+#: admin/class-teamstuff-calendar-admin.php:146
+msgid "Enable Teamstuff Calendar"
+msgstr ""
+
+#: admin/class-teamstuff-calendar-admin.php:155
+msgid "Teamstuff Club Token"
+msgstr ""
+
+#: admin/class-teamstuff-calendar-admin.php:164
+msgid "Hide scores for past games"
+msgstr ""
+
+#: admin/class-teamstuff-calendar-admin.php:187
+msgid ""
+"Required support for REST APIs not found on your WordPress installation. "
+"Teamstuff Calendar will not operate correctly. Please update WordPress to at "
+"least v4.5.0 or install the 'WP REST API v2' plugin."
+msgstr ""
+
+#: admin/class-teamstuff-calendar-admin.php:197
+msgid "Please adjust the settings accordingly."
+msgstr ""
+
+#: admin/class-teamstuff-calendar-admin.php:217
+msgid ""
+"Note that by enabling the Teamstuff Calendar here you opt in to any "
+"associated Teamstuff branding of the widget."
+msgstr ""
+
+#: public/partials/teamstuff-calendar-widget-team.php:22
+#: public/partials/teamstuff-calendar-widget-team.php:75
+#: public/partials/teamstuff-calendar-widget.php:20
+#: public/partials/teamstuff-calendar-widget.php:61
+msgid "Powered by Teamstuff"
+msgstr ""
+
+#: public/partials/teamstuff-calendar-widget-team.php:37
+msgid "to"
+msgstr ""
+
+#: public/partials/teamstuff-calendar-widget-team.php:40
+msgid "From"
+msgstr ""
+
+#: public/partials/teamstuff-calendar-widget-team.php:43
+msgid "To"
+msgstr ""
+
+#: public/partials/teamstuff-calendar-widget-team.php:46
+msgid "All time"
+msgstr ""
+
+#: public/partials/teamstuff-calendar-widget-team.php:56
+#: public/partials/teamstuff-calendar-widget.php:42
+msgid "Loading"
+msgstr ""
+
+#: public/partials/teamstuff-calendar-widget-team.php:63
+msgid "No games to display."
+msgstr ""
+
+#: public/partials/teamstuff-calendar-widget-team.php:70
+#: public/partials/teamstuff-calendar-widget.php:56
+msgid "Oops!"
+msgstr ""
+
+#: public/partials/teamstuff-calendar-widget-team.php:70
+#: public/partials/teamstuff-calendar-widget.php:56
+msgid ""
+"We failed to fetch the calendar from Teamstuff. Please try again or contact "
+"the site administrator."
+msgstr ""
+
+#: public/partials/teamstuff-calendar-widget-team.php:85
+#: public/partials/teamstuff-calendar-widget.php:70
+msgid "NOW"
+msgstr ""
+
+#: public/partials/teamstuff-calendar-widget-team.php:90
+#: public/partials/teamstuff-calendar-widget.php:74
+msgid "MY TIME"
+msgstr ""
+
+#: public/partials/teamstuff-calendar-widget.php:27
+msgid "Previous Day"
+msgstr ""
+
+#: public/partials/teamstuff-calendar-widget.php:29
+msgid "Next Day"
+msgstr ""
+
+#: public/partials/teamstuff-calendar-widget.php:49
+msgid "No games scheduled today."
+msgstr ""
+
+#. #-#-#-#-#  teamstuff-calendar.pot (Teamstuff Calendar 1.0.7)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  teamstuff-calendar.pot (Teamstuff Calendar 1.0.7)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.teamstuff.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Provides a widget for your WordPress site that will display the fixtures and "
+"scores for your Teamstuff Club!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Teamstuff"
+msgstr ""

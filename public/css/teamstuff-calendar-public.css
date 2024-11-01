@@ -1,0 +1,220 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ @import url("http://fonts.googleapis.com/css?family=Lato:100,400");
+
+
+ #ts-calendar-widget {
+   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-size: 12px;
+   font-weight: 300;
+ }
+
+ #ts-calendar-widget a {
+   text-decoration: none;
+   box-shadow: none;
+   border: none;
+   color: #006499;
+ }
+
+ #ts-calendar-widget a img {
+   margin: auto;
+   display: inline;
+ }
+
+ #ts-calendar-header {
+   font-size: 200%;
+   font-weight: 300;
+   color: white;
+   background-color: #00B4FF;
+ }
+
+ #ts-calendar-year {
+   font-size: 80%;
+   color: #E6E6E6;
+ }
+
+ #ts-calendar-header a {
+   color: inherit;
+   box-shadow: none;
+   outline: none;
+ }
+
+ #ts-calendar-header .ts-calendar-header-button {
+   padding: 0;
+ }
+
+ #ts-calendar-header #ts-calendar-date-prev img, #ts-calendar-header #ts-calendar-date-next img {
+   min-width:24px;
+ }
+
+ #ts-calendar-date-range, #ts-calendar-date-range-to, #ts-calendar-date-range-from, #ts-calendar-date-range-all {
+   color: #999;
+   font-weight: 500;
+   margin-top:-15px;
+   margin-bottom:5px;
+ }
+
+ .ts-calendar-row {
+   margin-bottom: 5px !important;
+ }
+
+ .ts-calendar-inner-row {
+   -ms-flex: 1;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+ }
+
+ .ts-calendar-row.ts-calendar-row-past, .ts-calendar-row.ts-calendar-row-bye {
+   color: gray;
+ }
+
+ .ts-calendar-homeaway {
+    border-radius: 24px;
+    height: 24px;
+    width: 24px;
+    -ms-flex: 0 0 24px;
+    -webkit-flex: 0 0 24px;
+    flex: 0 0 24px;
+    text-align:center;
+    line-height:24px;
+    font-size:12px;
+    font-weight: bold;
+    margin-right:10px;
+ }
+
+ .ts-calendar-homeaway.ts-calendar-home {
+   background-color: #82b441;
+   color: white;
+ }
+
+ .ts-calendar-homeaway.ts-calendar-away {
+   background-color: #c81e28;
+   color: white;
+ }
+
+ .ts-calendar-row-past .ts-calendar-homeaway {
+   background-color:#E6E6E6;
+   color: gray;
+ }
+
+ .ts-calendar-row-bye .ts-calendar-col {
+   padding-top: 5px;
+   padding-bottom: 5px;
+ }
+
+ .ts-calendar-row .ts-calendar-col {
+   padding: 10px;
+   margin: auto;
+ }
+
+ .ts-calendar-col-location {
+   font-size: 80%;
+   font-weight: 500;
+   line-height: 1.15;
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display:         flex;
+ }
+
+ .ts-calendar-row-past .ts-calendar-col-location {
+   color: #999999;
+   font-weight: normal;
+ }
+
+ .ts-calendar-col-location #ts-calendar-maplink {
+   font-size: 80%;
+   line-height: 1;
+ }
+
+ .ts-calendar-col-score {
+   font-size: 120%;
+   color: black;
+   font-weight: normal;
+   padding-left: 0;
+ }
+
+ .ts-calendar-col-teams {
+   color: gray;
+   line-height: 1.4;
+ }
+
+ .ts-calendar-row.ts-calendar-row-bye .ts-calendar-col-teams {
+   line-height: inherit; /* line height affects the centering for some reason */
+ }
+
+ .ts-calendar-row.ts-calendar-row-current .ts-calendar-col-teams #ts-calendar-team-us, .ts-calendar-row.ts-calendar-row-future .ts-calendar-col-teams #ts-calendar-team-us {
+   font-weight: 500;
+   color: black;
+ }
+
+ .ts-calendar-row .ts-calendar-col-time {
+   padding-left: 5px;
+   padding-right: 5px;
+   margin: 0;
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display:         flex;
+   flex-direction: column;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   -ms-flex: 0 0 70px;
+   -webkit-flex: 0 0 70px;
+   flex: 0 0 70px;
+ }
+
+ .ts-calendar-row .ts-calendar-col-time-xl {
+   flex: 0 0 100px;
+ }
+
+ .ts-calendar-row.ts-calendar-row-past .ts-calendar-col-time {
+   background-color: #F2F2F2;
+ }
+
+ .ts-calendar-row.ts-calendar-row-current .ts-calendar-col-time {
+   background-color: #82b441;
+   color: white;
+ }
+
+ .ts-calendar-time-user-container {
+   background-color: #777;
+   margin-top: 5px;
+   padding: 5px 7px;
+   border-radius:4px;
+   line-height:1.4;
+ }
+
+ .ts-calendar-row.ts-calendar-row-future .ts-calendar-col-time {
+   background-color: #333333;
+   color: white;
+ }
+
+ .ts-calendar-col > .ts-calendar-col-content {
+   margin: auto;
+ }
+
+ .ts-calendar-row .row {
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display:         flex;
+ }
+
+ .ts-calendar-row .container-fluid:before,
+ .ts-calendar-row .container-fluid:after,
+ .ts-calendar-row .row:before,
+ .ts-calendar-row .row:after {
+    display:none;
+}
+
+#ts-calendar-widget .col-xs-1half {
+  width: 12.5%;
+}
+
+#ts-calendar-widget .col-xs-4half {
+  width: 37.5%;
+}
